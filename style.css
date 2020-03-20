@@ -35,7 +35,7 @@
 }
 .navbar-toggler
 {
-    border: none!important;
+    border: none !important;
 }
 .nav-link
 {
@@ -229,6 +229,138 @@ margin-top: 15px;
 {
     transition: 0.5s;
 }
+
+
+
+#promo
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/jprmbt2.jpg);
+  background-size: cover;
+  background-position: center;
+   color: #fff;
+   background-attachment: fixed;
+   text-align: center;
+   padding: 100px;
+   font-family: sans-serif;
+   font-size: 38px;
+}
+
+
+
+
+#price
+{
+    padding: 40px;
+    background: #efefef;
+}
+
+.single-price
+{
+     margin: 10px auto;
+    display:  inline;
+    float: left;
+   width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+ }
+
+.price-head
+  {
+     background-color: #2196f3;
+     display: inline;
+     float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+    }
+
+.price-head h2
+{
+   color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+   margin-bottom: 5px;
+    padding: 5px;
+     text-transform: uppercase;
+}
+
+.price-head p
+{
+   font-size: 25px;
+   color: #ccc;
+     font-weight: bold;
+    line-height: 30px;
+}
+
+#price span
+{
+    font-size: 15px;
+}
+.price-content 
+{
+   display: inline;
+   float: left;
+   width:  100%;
+    padding: 0 15px;
+}
+
+.price content ul li 
+{
+   border-bottom: 1px solid #efefef;
+   padding: 15px 10px;
+   list-style: none:
+}
+ul li:last-child
+{
+   border: none;
+}
+
+.fa-check-circle
+{
+    color: green;
+   margin-right: 10px;
+   font-size: 20px;
+}
+.fa-times-circle
+{
+    color: red;
+   margin-right: 10px;
+   font-size: 20px;
+}
+.price-button
+{
+   display: inline;
+   float: left;
+    padding: 15px 15px 30px;
+   text-align: center;
+   width: 100%;
+}
+.buy-btn
+{
+   background-color: #2196f3;
+   border-radius: 3px;
+   dispaly: inline-block;
+   font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-btn:hover
+{ 
+   border-color: 1px solid #fff;
+   background-color: #3f51b5;
+}
+a
+{
+   text-decoration: none!important;
+   color: #fff!important;
+}
+
+
 
 
 
