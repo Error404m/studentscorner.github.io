@@ -11,7 +11,10 @@
    <body background="jprmbt1.jpg" repeat =block fixed>
       <div class="row">
     <div class="col-md-12">
-      <form action="mail.php" method="post">
+<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="m.tiwari9889@gmail.com"
+          action="https://script.google.com/macros/s/AKfycbyVdKwXaPoJxci481-ON2pvaW9eQpWXFI_bGJoGoA/exec">
+
+    
         <h1> Registration </h1>
         
         <fieldset>
@@ -29,82 +32,82 @@
 
 
       <label for="job">D.O.B.</label>
-          <select id="job" name="user_job">
+          <select id="job" name="day">
            <option value="DAY">DAY</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
             <option value="4">4</option>
  <option value="5">5</option>
- <option value="1">6</option>
- <option value="1">7</option>
- <option value="1">8</option>
- <option value="1">9</option>
- <option value="1">10</option>
- <option value="1">11</option>
- <option value="1">12</option>
- <option value="1">13</option>
- <option value="1">14</option>
- <option value="1">15</option>
- <option value="1">16</option>
- <option value="1">17</option>
- <option value="1">18</option>
- <option value="1">19</option>
- <option value="1">20</option>
- <option value="1">21</option>
- <option value="1">22</option>
- <option value="1">23</option>
- <option value="1">24</option>
- <option value="1">25</option>
- <option value="1">26</option>
- <option value="1">27</option>
- <option value="1">28</option>
- <option value="1">29</option>
- <option value="1">30</option>
-           <option value="1">31</option>
+ <option value="6">6</option>
+ <option value="7">7</option>
+ <option value="8">8</option>
+ <option value="9">9</option>
+ <option value="10">10</option>
+ <option value="11">11</option>
+ <option value="12">12</option>
+ <option value="13">13</option>
+ <option value="14">14</option>
+ <option value="15">15</option>
+ <option value="16">16</option>
+ <option value="17">17</option>
+ <option value="18">18</option>
+ <option value="19">19</option>
+ <option value="20">20</option>
+ <option value="21">21</option>
+ <option value="22">22</option>
+ <option value="23">23</option>
+ <option value="24">24</option>
+ <option value="25">25</option>
+ <option value="26">26</option>
+ <option value="27">27</option>
+ <option value="28">28</option>
+ <option value="29">29</option>
+ <option value="30">30</option>
+           <option value="31">31</option>
           </select>
 
 
-          <select id="job" name="user_job">
+          <select id="job" name="month">
            <option value="DAY">MONTH</option>
-              <option value="1">JAN</option>
-              <option value="2">FEB</option>
-              <option value="3">MAR</option>
-            <option value="4">APR</option>
- <option value="5">MAY</option>
- <option value="1">JUN</option>
- <option value="1">JUL</option>
- <option value="1">AUG</option>
- <option value="1">SEPT</option>
- <option value="1">OCT</option>
- <option value="1">NOV</option>
- <option value="1">DEC</option>
+              <option value="JAN">JAN</option>
+              <option value="FEB">FEB</option>
+              <option value="MAR">MAR</option>
+            <option value="APR">APR</option>
+ <option value="MAY">MAY</option>
+ <option value="JUN">JUN</option>
+ <option value="JUL">JUL</option>
+ <option value="AUG">AUG</option>
+ <option value="SEP">SEPT</option>
+ <option value="AUG">OCT</option>
+ <option value="NOV">NOV</option>
+ <option value="DEC">DEC</option>
  </select>
 
 
 
 
-  <select id="job" name="user_job">
-           <option value="DAY">YEAR</option>
-              <option value="1" 2008</option>
-              <option value="2">2007</option>
-              <option value="3">2006</option>
-            <option value="4">2005</option>
- <option value="5">2004</option>
- <option value="1">2003</option>
- <option value="1">2002</option>
- <option value="1">2001</option>
- <option value="1">2000</option>
- <option value="1">1999</option>
- <option value="1">1998</option>
- <option value="1">1997</option>
-<option value="1">1996</option>
- <option value="1">1995</option>
- <option value="1">1994</option>
+  <select id="job" name="year">
+           <option value="YEAR">YEAR</option>
+              <option value="2008" 2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+            <option value="2005">2005</option>
+ <option value="2004">2004</option>
+ <option value="2003">2003</option>
+ <option value="2002">2002</option>
+ <option value="2001">2001</option>
+ <option value="2000">2000</option>
+ <option value="1999">1999</option>
+ <option value="1998">1998</option>
+ <option value="1997">1997</option>
+<option value="1996">1996</option>
+ <option value="1995">1995</option>
+ <option value="1994">1994</option>
  </select>
 
           <label for="name">City</label>
-          <input type="text" id="name" name="user_name" placeholder="Lucknow" >
+          <input type="text" id="name" name="city" placeholder="Lucknow" >
 
         
         
@@ -114,40 +117,47 @@
           <legend><span class="number">2</span> Your Profile</legend>
           
           <label for="name">JEE Mains Roll No</label>
-          <input type="number" id="name" name="user_name" >
+          <input type="number" id="name" name="mains" >
           <label for="name">JEE Advanced Roll No</label>
-          <input type="number" id="name" name="user_name" >
+          <input type="number" id="name" name="advanced" >
         
        
         
         
           
           <label>Interests:</label>
-          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Computer Science & Eng</label><br>
-          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Electronics</label><br>
-          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Electrical</label><br>
- <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Mechanical</label><br>
- <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Civil</label><br>
- <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Information Technology</label><br>
- <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Chemical</label><br>
-<input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Physics</label>
-<input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Chemistry</label>
-<input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Maths</label>
+          <input type="checkbox" id="development" value="Computer Science & Eng" name="user_interest"><label class="light" for="development">Computer Science & Eng</label><br>
+          <input type="checkbox" id="design" value="Electronics" name="user_interest"><label class="light" for="design">Electronics</label><br>
+          <input type="checkbox" id="business" value="Electrical" name="user_interest"><label class="light" for="business">Electrical</label><br>
+ <input type="checkbox" id="business" value="Mechanical" name="user_interest"><label class="light" for="business">Mechanical</label><br>
+ <input type="checkbox" id="business" value="Civil" name="user_interest"><label class="light" for="business">Civil</label><br>
+ <input type="checkbox" id="business" value="Information Technology" name="user_interest"><label class="light" for="business">Information Technology</label><br>
+ <input type="checkbox" id="business" value="Chemical" name="user_interest"><label class="light" for="business">Chemical</label><br>
+<input type="checkbox" id="business" value="Physics" name="user_interest"><label class="light" for="business">Physics</label>
+<input type="checkbox" id="business" value="Chemistry" name="user_interest"><label class="light" for="business">Chemistry</label>
+<input type="checkbox" id="business" value="Maths" name="user_interest"><label class="light" for="business">Maths</label>
 <label for="name">Others</label>
-          <input type="text" id="name" name="user_name" >
+          <input type="text" id="others" name="others" >
 
   <label>Course Duration prefereance</label>
-          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">4 yrs(B.Tech Only)</label><br>
-          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Dual Degree(B.Tech+M.Tech 5Yrs.)</label>
-          
-         </fieldset>
-       <input type="submit" name="submit" value="Submit & Proceed for Payment" class="sub-btn">
-          
-        
-        
+          <input type="radio" id="under_13" value="4Yrs" name="user_choice"><label for="under_13" class="light">4 yrs(B.Tech Only)</label><br>
+          <input type="radio" id="over_13" value="DualDegree" name="user_age"><label for="over_13" class="light">Dual Degree(B.Tech+M.Tech 5Yrs.)</label><br>
+ </fieldset>
+
+  <label for="message">Message: </label>
+        <textarea id="message" name="message" rows="10"
+                  placeholder="Any other message......"></textarea>
+        <input type="submit" name="submit" value="Submit & Proceed for Payment" class="sub-btn">
+       <input type="Reset"  value="Reset" class="sub-bt">
+
        </form>
         </div>
       </div>
-      
+      <div style="display:none;" id="thankyou_message">
+        <h2>
+            <em>Thanks</em> for contacting us!
+            We will get back to you soon!
+        </h2>
+    </div>
     </body>
 </html>
