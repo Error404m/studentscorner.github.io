@@ -157,7 +157,7 @@
 }
 .user
 {
-     width: 120px;
+     width: 100px;
       height: 120px;
       border-radius: 50%;
 }
@@ -185,9 +185,9 @@
 
 blockquote {
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 15px;
     font-style: italic;
-    width: 300px;
+    width: 220px;
     margin: 0.25em 0;
     padding: 0.35em 40px;
     line-height: 1.45;
@@ -197,22 +197,22 @@ blockquote {
 
 blockquote:before {
     display: block;
-    padding-left: 10px;
+    padding-left: 1px;
     content: "\201C";
     font-size: 80px;
     position: absolute;
-    left: -20px;
+    left: 0px;
     top: -20px;
     color: #7a7a7a;
 }
 
 blockquote:after {
     display: block;
-    padding-left: 10px;
+    padding-right: 0px;
     content: "\201D";
     font-size: 80px;
     position: absolute;
-    right: +30px;
+    right: 10px;
     bottom: -70px;
     color: #7a7a7a;
 }
