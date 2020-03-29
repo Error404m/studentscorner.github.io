@@ -239,13 +239,16 @@ blockquote cite:before {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
+    background-color: #009688;
+    margin-bottom: 50px;
 }
 h1
 {
-     text-align: center;
-      color: #555 !important ;
+       text-align: center;
+      color: black !important ;
       padding-bottom: 10px;
 }
+
 h1::after
 {
     content: ' ';
@@ -258,7 +261,7 @@ h1::after
 .profile-pic 
 {
        margin-top: 25px;
-      border: 20px solid #fff;
+      border: 0px solid #fff;
 }
 .profile-pic .img-box
 {
@@ -280,7 +283,7 @@ h1::after
 font-size: 22px;
  font-weight: bold;
   margin-top: 15px;
-color: #007bff !important;
+color: white !important;
 }
 .profile-pic h3
 {
@@ -323,6 +326,9 @@ margin-top: 15px;
 {
     transition: 0.5s;
 }
+
+
+
 
 
 
@@ -460,39 +466,26 @@ a
 
 
 
-.middle{
-  position: relative;
-  top: 0%;
-  width: 100%;
-  transform: translateY(-50%);
- padding: 20px;
-bottom: -100px;
+.stat
+{
+       background: #212121;
+       padding-top: 80px;
+      padding-bottom: 80px;
+     color: white;
+      margin-top: 100px;
+ margin-bottom: 100px;
+}
 
+.stat i
+{
+   font-size: 45px;
 }
-.counting-sec{
-  padding: 40px 0;
-  width: 100%;
-  background: linear-gradient(90deg,#3c6382,#82ccdd);
-}
-.inner-width{
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-}
-.col{
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-  color: #fff;
-  text-transform: uppercase;
-}
-.col i{
-  font-size: 40px;
-  color: #333;
-}
-.num{
-  font-size: 40px;
-  margin: 20px 0;
+
+.stat-items h2
+{
+    font-weight: bolder;
+    font-size: 32px;
+   color: darkorange;
 }
 
 
